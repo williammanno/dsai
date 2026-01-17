@@ -1,0 +1,116 @@
+{
+  "first_day": "2026-01-21",
+  "last_day": "2026-05-05",
+  "modules": {
+    "0": {
+      "folder": "00_quickstart",
+      "name": "Data Science Quickstart",
+      "due": "2026-01-26"
+    },
+    "1": {
+      "folder": "01_query_api",
+      "name": "API Queries",
+      "due": "2026-02-02"
+    },
+    "2": {
+      "folder": "02_productivity",
+      "name": "AI for Productivity",
+      "due": "2026-02-09"
+    },
+    "3": {
+      "folder": "03_query_ai",
+      "name": "AI API Calls",
+      "due": "2026-02-23"
+    },
+    "4": {
+      "folder": "04_deployment",
+      "name": "Deploying Apps",
+      "due": "2026-03-02"
+    },
+    "5": {
+      "folder": "06_hackathon",
+      "name": "AI Systems Hackathon",
+      "due": null,
+      "special": "hackathon",
+      "dates": "2026-03-06T15:30:00-05:00 to 2026-03-07T15:30:00-05:00"
+    },
+    "6": {
+      "folder": "05_agents",
+      "name": "Agents and Prompt Engineering",
+      "due": "2026-03-16"
+    },
+    "7": {
+      "folder": "07_rag",
+      "name": "Retrieval Augmented Generation",
+      "due": "2026-03-23"
+    },
+    "8": {
+      "folder": "08_function_calling",
+      "name": "Function Calling with AI",
+      "due": "2026-03-30"
+    },
+    "9": {
+      "folder": "09_text_analysis",
+      "name": "AI for Text Analysis",
+      "due": "2026-04-13"
+    },
+    "10": {
+      "folder": "10_data_management",
+      "name": "AI for Data Management",
+      "due": "2026-04-20"
+    },
+    "11": {
+      "folder": "11_decision_support",
+      "name": "AI for Decision-Making",
+      "due": "2026-04-26"
+    },
+    "12": {
+      "folder": "12_end",
+      "name": "Finale",
+      "due": null,
+      "special": "topics"
+    }
+  },
+  "breaks": [
+    {
+      "module": 2,
+      "text": "BREAK - 02/14 - 02/17",
+      "start": "2026-02-14",
+      "end": "2026-02-17"
+    },
+    {
+      "module": "spring_break",
+      "text": "BREAK - 03/28 - 04/05",
+      "start": "2026-03-28",
+      "end": "2026-04-05"
+    }
+  ],
+  "special_assignments": {
+    "HOMEWORK 1": {
+      "due": "2026-02-23T09:00:00",
+      "module": 3
+    },
+    "HOMEWORK 2": {
+      "due": "2026-04-06T09:00:00",
+      "module": 8
+    },
+    "HOMEWORK 3": {
+      "due": "2026-05-11T09:00:00",
+      "module": 12
+    },
+    "TOOL 1": {
+      "due": "2026-03-02T09:00:00",
+      "module": 4
+    },
+    "TOOL 2": {
+      "due": "2026-04-13T09:00:00",
+      "module": 8
+    },
+    "TOOL 3": {
+      "due": "2026-05-04T09:00:00",
+      "module": 12
+    }
+  },
+  "github_repo": "https://github.com/timothyfraser/dsai",
+  "due_time": "09:00:00"
+}
