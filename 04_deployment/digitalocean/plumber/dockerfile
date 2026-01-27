@@ -12,4 +12,4 @@ EXPOSE 8000
 
 # Command to run your Plumber API,
 # using the image's built-in process.
-CMD ["plumber.R"]
+CMD ["/app/plumber.R"]
