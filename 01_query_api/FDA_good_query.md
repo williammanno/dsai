@@ -96,7 +96,7 @@ flowchart TD
     J --> K[Print summary<br/>status, records returned, total]
     K --> L{Any records?}
     L -- No --> M[Print 'No records returned']
-    L -- Yes --> N[Print table of records<br/>date | id | drugs | reactions]
+    L -- Yes --> N[Print table of records<br/>date, id, drugs, reactions]
     N --> O[Print detailed example record]
     M --> P[End]
     O --> P[End]
