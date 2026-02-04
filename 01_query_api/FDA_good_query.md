@@ -86,7 +86,7 @@ flowchart TD
     B --> C[Build params<br/>limit, search, sort, optional api_key]
     C --> D[Send GET request<br/>/drug/event.json]
     D --> E{Response OK?}
-    E -- No, 500 parse_exception --> F[Retry with fallback params<br/>limit only (+ api_key)]
+    E -- No, 500 parse_exception --> F[Retry with fallback params<br/>limit only and api_key]
     F --> G{Fallback OK?}
     E -- No, other error --> H[Print status/text<br/>raise HTTP error]
     G -- No --> H
