@@ -1,6 +1,5 @@
 ---
 description: READ document formatting (headers, icons, links, tone) from READ_find_apis style
-globs: ["**/READ_*.md"]
 alwaysApply: false
 ---
 # READ Document Formatting
