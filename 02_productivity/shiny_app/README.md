@@ -22,7 +22,9 @@ This app queries the **openFDA Drug Event API** (FAERS) and displays adverse eve
 
 The app in the browser: sidebar with query parameters and Fetch data, main area with header, summary stats, and results table.
 
-![App in browser](screenshot.png)
+![App in browser](./screenshot.png)
+
+*Image file must be named `screenshot.png` and saved in this folder (`02_productivity/shiny_app/`) for it to display. If you open the README as a local file in Safari, the image may not load (browser security); viewing the README on GitHub or in an editor preview shows the image.*
 
 ---
 
