@@ -22,7 +22,7 @@ This app queries the **openFDA Drug Event API** (FAERS) and displays adverse eve
 
 The app in the browser: sidebar with query parameters and Fetch data, main area with header, summary stats, and results table.
 
-![App in browser](./IMG_7892.png)
+![App in browser](https://github.com/williammanno/dsai/raw/main/02_productivity/shiny_app/IMG_7982.png)
 
 ---
 
