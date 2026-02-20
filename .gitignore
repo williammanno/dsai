@@ -4,3 +4,4 @@
 **/_pycache_
 docs/.prep/.canvas
 ollama.env
+03_query_ai/05_reporting_report.*
