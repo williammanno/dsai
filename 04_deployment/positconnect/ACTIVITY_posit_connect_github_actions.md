@@ -50,10 +50,10 @@ At the following links are several workflow templates, each designed to match a 
 
 Choose from:
 
-- For Shiny R Apps, use `.github/workflows/deploy-shinyr.yml`.
-- For Shiny Python Apps, use `.github/workflows/deploy-shinypy.yml`.
-- For R-based Plumber APIs, use `github/workflows/deploy-plumber.yml`.
-- For Python-based FastAPI apps, use `.github/workflows/deploy-fastapi.yml`.
+- For Shiny R Apps, use [`.github/workflows/deploy-shinyr.yml`](../../.github/workflows/deploy-shinyr.yml).
+- For Shiny Python Apps, use [`.github/workflows/deploy-shinypy.yml`](../../.github/workflows/deploy-shinypy.yml).
+- For R-based Plumber APIs, use [`github/workflows/deploy-plumber.yml`](../../.github/workflows/deploy-plumber.yml).
+- For Python-based FastAPI apps, use [`.github/workflows/deploy-fastapi.yml`](../../.github/workflows/deploy-fastapi.yml).
 
 - [ ] Please select the appropriate template, copy it, and put it in a file at this path in  your repo: `.github/workflows/<NAME_OF_YOUR_FILE>.yml`. 
 - Note: It **must** go in the `.github/workflows` folder; this is a reserved name for Github actions.
