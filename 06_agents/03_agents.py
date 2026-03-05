@@ -10,8 +10,10 @@
 
 ## 0.1 Load Packages #################################
 
+
 import pandas as pd  # for data manipulation
 import requests      # for HTTP requests
+
 
 # If you haven't already, install these packages...
 # pip install pandas requests
