@@ -73,6 +73,12 @@ result3 = agent_run(role=role3, task=result2, model=MODEL, output="text")
 
 # 3. VIEW RESULTS ###################################
 
+# Data Analysis
+print("📰 Data Analysis:")
+print(result2)
+print()
+
 # View press release
 print("📰 Press Release:")
 print(result3)
+print()
