@@ -22,7 +22,7 @@ from pathlib import Path
 
 # Set working directory to this script's folder.
 # This makes relative imports and file paths consistent.
-os.chdir("C:/Users/tmf77/courses/SYSEN5381/dsai/06_agents")
+os.chdir("/Users/williammanno/Documents/GitHub/dsai/06_agents")
 
 ## 0.2 Load Functions #################################
 
@@ -90,8 +90,7 @@ result2
 
 # Task 3 - Press Release Agent -------------------------
 # This agent takes the analysis and writes a press release
-role3 = "I write a 1-page press release on the currently ongoing shortages, 
-using the analysis provided by the user."
+role3 = "I write a 1-page press release on the currently ongoing shortages, using the analysis provided by the user."
 result3 = agent_run(role=role3, task=result2, model=MODEL, output="text")
 result3
 
