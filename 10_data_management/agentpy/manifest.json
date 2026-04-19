@@ -2,7 +2,7 @@
   "version": 1,
   "locale": "C.UTF-8",
   "metadata": {
-    "appmode": "python-api",
+    "appmode": "python-fastapi",
     "entrypoint": "app.api:app"
   },
   "python": {
@@ -17,20 +17,44 @@
     "requirements.txt": {
       "checksum": "9b088d20665a7b613166df1092fcbeaf"
     },
+    ".env": {
+      "checksum": "72d407d5f40a3c348a66048f9cf137e6"
+    },
     ".env.example": {
-      "checksum": "bf2a5e81112b9ae493bb17fd41c48ee1"
+      "checksum": "8dcf112c8a97ed03e2b586757ad20382"
     },
     "AGENT.md": {
       "checksum": "f029a5b9cf11f7594871fd4dabedaa78"
     },
     "README.md": {
-      "checksum": "d404e84f8873cbd7a0a41c9d887fb9a4"
+      "checksum": "a1a61508f984165241f664edb12c46e5"
     },
     "app/__init__.py": {
       "checksum": "2f6b00056ab5afdc2294d13f9d247cbd"
     },
+    "app/__pycache__/__init__.cpython-313.pyc": {
+      "checksum": "1dbbb1726ceb7d1566176145ba21e0ec"
+    },
+    "app/__pycache__/api.cpython-313.pyc": {
+      "checksum": "c844e4d7fdd4edd008f8e5b0e698c6af"
+    },
+    "app/__pycache__/context.cpython-313.pyc": {
+      "checksum": "4298f7b9ae68c8e5badcc249aa822e48"
+    },
+    "app/__pycache__/guardrails.cpython-313.pyc": {
+      "checksum": "37e096b169f0f79649abee578877fadb"
+    },
+    "app/__pycache__/logging_setup.cpython-313.pyc": {
+      "checksum": "9264ffc9b253a6000ada611adadee6f2"
+    },
+    "app/__pycache__/loop.cpython-313.pyc": {
+      "checksum": "273baa034798289aef8477faa8201fcd"
+    },
+    "app/__pycache__/tools.cpython-313.pyc": {
+      "checksum": "a286fa2a046ee6d5b1ce4627fd0b6c3c"
+    },
     "app/api.py": {
-      "checksum": "33bab200653e2ddd1d606065638c0271"
+      "checksum": "27400eebe25d9a539481a8a4efde4ad1"
     },
     "app/context.py": {
       "checksum": "2bb98340791dc58d7d6cf3232481e448"
@@ -48,16 +72,16 @@
       "checksum": "8b75570729fff94d77656d37d0c14817"
     },
     "deployme.sh": {
-      "checksum": "f0b1ad4dcac1c70b3323e6f783dcca0d"
+      "checksum": "3a837d853e60f0d9444d90f43edce636"
     },
     "logs/.gitkeep": {
       "checksum": "d41d8cd98f00b204e9800998ecf8427e"
     },
     "logs/agent.log": {
-      "checksum": "7d3e59b5bbcf988d10b4348f70229579"
+      "checksum": "3a818944c0ed0a84dc08e10fcdd24d36"
     },
     "manifestme.sh": {
-      "checksum": "63479933d7f0e5cf20e21e84a410aa3c"
+      "checksum": "fd837d4fa1b99c0f4841106c4931aa62"
     },
     "runme.sh": {
       "checksum": "12e88633a8c4ce80a2749ce1b4ed8849"
@@ -78,7 +102,7 @@
       "checksum": "7de50051c39b6c8d1e74b3d4ed1342cf"
     },
     "testme.py": {
-      "checksum": "d694825d081909b04dd09ac60330ceff"
+      "checksum": "53ae4b6f66644637aa6aee29099b5117"
     }
   }
 }
