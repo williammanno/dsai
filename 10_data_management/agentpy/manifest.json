@@ -13,15 +13,23 @@
       "package_file": "requirements.txt"
     }
   },
+  "environment": {
+    "python": {
+      "requires": "~=3.12.0"
+    }
+  },
   "files": {
     "requirements.txt": {
       "checksum": "9b088d20665a7b613166df1092fcbeaf"
     },
     ".env": {
-      "checksum": "72d407d5f40a3c348a66048f9cf137e6"
+      "checksum": "9b04ac156681d40de80a93a4b1bf98c7"
     },
     ".env.example": {
       "checksum": "8dcf112c8a97ed03e2b586757ad20382"
+    },
+    ".python-version": {
+      "checksum": "0885a8b0e7355de614d6685033e058f6"
     },
     "AGENT.md": {
       "checksum": "f029a5b9cf11f7594871fd4dabedaa78"
